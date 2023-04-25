@@ -8,12 +8,16 @@ class Main{
         Gato luna = new Gato("Luna", "hembra", 2, 5, "gris", "lisa");
         luna.purr();
 
-        System.out.println("Los nombres de los gatos son " + oscar.name + " y " + luna.name);
+        System.out.println("Los nombres de los gatos son " + oscar.getName() + " y " + luna.getName());
 
         // Clase 13 - Encapsulamiento
 
-        System.out.println("El color del gato " + oscar.name + " es " + oscar.color);
-        oscar.color = "verde";
-        System.out.println("El color del gato " + oscar.name + " es " + oscar.color);
+        System.out.println("El color del gato " + oscar.getName() + " es " + oscar.getColor());
+        System.out.println("El gato " + oscar.getName() + " tiene " + oscar.getAge() + " anios");
+        oscar.happyBirthday();
+        oscar.setAge(0);
+        System.out.println("El gato " + oscar.getName() + " tiene " + oscar.getAge() + " anios");
+        oscar.setColor("gris");
+        System.out.println("El color del gato " + oscar.getName() + " es " + oscar.getColor());
     }
 }
