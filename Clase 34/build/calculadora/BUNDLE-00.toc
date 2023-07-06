@@ -1,0 +1,4 @@
+([('calculadora',
+   '/Users/joelsebastiantorrescarrasco/Documents/Ulagos/POO/POO2023-1/Clase '
+   '34/dist/calculadora',
+   'EXECUTABLE')],)
